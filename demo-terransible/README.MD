@@ -15,4 +15,5 @@ terraform state list
 terraform show | grep cidr_block
 terraform apply -var-file="dit.tfvars"
 terraform apply -var-file="prod.tfvars"
+terraform force-unlock
 ```
